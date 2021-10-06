@@ -1,17 +1,19 @@
-# Ejercicio-fullstack
-El objetivo de este ejercicio es evaluar las habilidades de un programador fullstack javascript, principalmente orientado a desarrollo de aplicaciones web con react y servicios con nodejs. Siéntete libre de agregar/modificar todo lo que consideres necesario para sumarle valor al proyecto, sin perjudicar la idea central del ejercicio.
+#Exercise-fullstack
+The objective of this exercise is to evaluate the skills of a fullstack javascript programmer, mainly oriented to developing web applications with react and services with nodejs. Feel free to add / modify everything you consider necessary to add value to the project, without damaging the central idea of ​​the exercise.
 
-## Forma de entrega
-La forma de entregar la solución de este ejercicio es haciendo un fork de este repo y un pull request con la solución.
+#Delivery method
+The way to deliver the solution for this exercise is to fork this repo and pull request with the solution.
 
-## Ejercicio 1:
-Este punto consiste en armar un API Rest en Node.js (para ahorrar tiempo, como base puedes utilizar un stack de desarrollo con el que estés familiarizado). Es necesario crear:
-* Un método que retorne una lista de usuarios. El mismo será utilizado en el ejercicio 2.1.
-* Un método que retorne el detalle de un usuario El mismo será utilizado en el ejercicio 2.2.
-* Readme detallando instrucciones de cómo usar el Api.
+#Exercise 1:
+This point consists of putting together a Rest API in Node.js (to save time, as a base you can use a development stack with which you are familiar). You need to create:
 
-Modelo de respuesta: lista de usuarios
+A method that returns a list of users. It will be used in exercise 2.1.
+A method that returns the detail of a user It will be used in exercise 2.2.
+Readme detailing instructions on how to use the Api.
+
 ```
+Response model: user list
+
 {
 	"users" : [
 
@@ -27,28 +29,28 @@ Modelo de respuesta: lista de usuarios
 		}
 	]
 }
-```
-Modelo de respuesta: detalle de usuarios
-```
+Response model: user detail
+
 {
   "name" : "Pedro Perez",
   "email" : "pperez@gmail.com",
   "country" : "Venezuela",
   "address": "Av. del Libertador 420"
 }
+
 ```
 
-## Ejercicio 2 - Web App
-Este ejercicio consiste en crear una aplicación React JS la cual debe tener:
-* Una pantalla donde se listen los usuarios que devuelve el método lista de usuarios del Api Rest del ejercicio 1.
-* Una pantalla donde se muestre el detalle de un usuario que se consume del método detalle de usuario del Api Rest del ejercicio 1.
-* Debe haber navegación tanto de la pantalla de resultado a detalle y viceversa.
-* Uso de patrones de diseño y buenas prácticas.
+#Exercise 2 - Web App
+This exercise consists of creating a React JS application which must have:
 
-Readme detallando cómo instrucciones de cómo levantar la aplicación y cómo está compuesta.
+A screen where the users returned by the list of users method of the Rest Api from exercise 1 are listed.
+A screen where the detail of a user that is consumed from the user detail method of the Api Rest of exercise 1 is shown.
+There should be navigation from both the result screen to detail and vice versa.
+Use of design patterns and good practices.
+Readme detailing how instructions on how to lift the application and how it is composed.
 
-## Bonus points
-* Uso de patrones de diseño y best practices. Uso de ES6 o TYPESCRIPT.
-* Unit tests.
-* Code style (puedes escoger cualquier estándar mientras lo respetes, solo indícanos cuál).
-* Provee un ambiente docker para testear tu app.
+#Bonus points
+Use of design patterns and best practices. Use of ES6 or TYPESCRIPT.
+Unit tests.
+Code style (you can choose any standard as long as you respect it, just tell us which one).
+Provide a docker environment to test your app.
