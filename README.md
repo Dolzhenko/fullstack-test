@@ -1,10 +1,10 @@
-#Exercise-fullstack
+# Exercise-fullstack
 The objective of this exercise is to evaluate the skills of a fullstack javascript programmer, mainly oriented to developing web applications with react and services with nodejs. Feel free to add / modify everything you consider necessary to add value to the project, without damaging the central idea of ​​the exercise.
 
-#Delivery method
+# Delivery method
 The way to deliver the solution for this exercise is to fork this repo and pull request with the solution.
 
-#Exercise 1:
+# Exercise 1:
 This point consists of putting together a Rest API in Node.js (to save time, as a base you can use a development stack with which you are familiar). You need to create:
 
 A method that returns a list of users. It will be used in exercise 2.1.
@@ -40,7 +40,7 @@ Response model: user detail
 
 ```
 
-#Exercise 2 - Web App
+# Exercise 2 - Web App
 This exercise consists of creating a React JS application which must have:
 
 A screen where the users returned by the list of users method of the Rest Api from exercise 1 are listed.
@@ -49,7 +49,7 @@ There should be navigation from both the result screen to detail and vice versa.
 Use of design patterns and good practices.
 Readme detailing how instructions on how to lift the application and how it is composed.
 
-#Bonus points
+# Bonus points
 Use of design patterns and best practices. Use of ES6 or TYPESCRIPT.
 Unit tests.
 Code style (you can choose any standard as long as you respect it, just tell us which one).
