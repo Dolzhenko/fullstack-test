@@ -51,6 +51,10 @@ Readme detailing how instructions on how to lift the application and how it is c
 
 # Bonus points
 Use of design patterns and best practices. Use of ES6 or TYPESCRIPT.
+
 Unit tests.
+
 Code style (you can choose any standard as long as you respect it, just tell us which one).
+
 Provide a docker environment to test your app.
+
